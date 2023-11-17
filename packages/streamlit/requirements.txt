@@ -1,0 +1,6 @@
+# The smaller this list will be, the faster the program will run, the more secure it will be
+# Always use dependencies that are well known and well maintained
+# If you are using a dependency that is not well known, you should be able to justify why you are using it (spoiler alert: you probably shouldn't)
+# Do not reinvent the wheel, but make sure you understand how the wheel works and how it is made, or your car will crash
+
+streamlit==1.26.0
