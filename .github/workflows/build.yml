@@ -4,10 +4,10 @@ on:
   workflow_dispatch:
 
 env:
-  REGISTRY: # wich registry do you want to use ?
-  NAMESPACE: # wich namespace do you want to use ? what is ${{github.repository }} ?
-  PLATFORM: # wich platform do you want to use ? linux/amd64, linux/arm64, linux/arm/v7, linux/arm/v6
-  TAG: # wich tag do you want to use ?
+  REGISTRY: ghcr.io # wich registry do you want to use ?
+  NAMESPACE: ${{github.repository }} # wich namespace do you want to use ? what is ${{github.repository }} ?
+  PLATFORM: linux/amd64 # wich platform do you want to use ? linux/amd64, linux/arm64, linux/arm/v7, linux/arm/v6
+  TAG: 1 # wich tag do you want to use ?
 
 
 jobs:
